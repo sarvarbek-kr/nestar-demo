@@ -1,12 +1,12 @@
 import withLayoutMain from "@/libs/components/layout/LayoutHome";
-import { Box, Container, Stack } from "@mui/material";
+import { Stack } from "@mui/material";
 import { NextPage } from "next";
 
 
 const Home: NextPage = () => {
   return (
   <Stack>
-    <Stack flexDirection={"column"}>
+    <Stack className={"home-page"}>
       <Stack>
       <Stack className="container">Popular Properties</Stack>
       </Stack>
